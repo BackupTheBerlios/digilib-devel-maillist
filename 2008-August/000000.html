@@ -1,0 +1,128 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [digilib-devel] digilib
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/digilib-devel/2008-August/index.html" >
+   <LINK REL="made" HREF="mailto:digilib-devel%40lists.berlios.de?Subject=Re%3A%20%5Bdigilib-devel%5D%20digilib&In-Reply-To=%3C48AD6E00.4050707%40mpiwg-berlin.mpg.de%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   
+   <LINK REL="Next"  HREF="000001.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[digilib-devel] digilib</H1>
+    <B>Robert Casties</B> 
+    <A HREF="mailto:digilib-devel%40lists.berlios.de?Subject=Re%3A%20%5Bdigilib-devel%5D%20digilib&In-Reply-To=%3C48AD6E00.4050707%40mpiwg-berlin.mpg.de%3E"
+       TITLE="[digilib-devel] digilib">casties at mpiwg-berlin.mpg.de
+       </A><BR>
+    <I>Thu Aug 21 15:30:40 CEST 2008</I>
+    <P><UL>
+        
+        <LI>Next message: <A HREF="000001.html">[digilib-devel] digilib
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#0">[ date ]</a>
+              <a href="thread.html#0">[ thread ]</a>
+              <a href="subject.html#0">[ subject ]</a>
+              <a href="author.html#0">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Hallo Alexander,
+
+Alexander Czmiel wrote:
+&gt;<i> ich hab da ein paar Fragen (und W&#252;nsche) zu digilib. Wie steht es denn
+</I>&gt;<i> um dessen Zukunft? Wird digilib aktiv weiter entwickelt? Gibt es
+</I>&gt;<i> soetwas wie eine Roadmap oder eine Stelle wo W&#252;nsche gesammelt werden?
+</I>
+digilib wird auf jeden Fall weiterentwickelt, es h&#228;ngt aber von den 
+verf&#252;gbaren Entwicklern ab, also vor allem von mir, und ich habe gerade 
+wenig Zeit. Ich denke, dass ich demn&#228;chst wieder mehr Zeit f&#252;r digilib 
+haben werde. Ansonsten kann sich nat&#252;rlich auch jeder andere mit Code 
+beteiligen.
+
+Eine Roadmap gibt es bis jetzt nicht wirklich. Es gibt zwar einen 
+Ticket-Tracker bei Berlios, aber den habe ich lange nicht mehr benutzt.
+
+Ich k&#246;nnte Dir Zugriff auf den Berlios-Tracker geben. Bist Du bei 
+Berlios schon registriert?
+
+&gt;<i> Mir geht es haupts&#228;chlich um drei Punkte, die meiner Meinung nach
+</I>&gt;<i> digilib noch attraktiver machen w&#252;rden und bei denen ich auch gern mit
+</I>&gt;<i> meinen bescheidenen F&#228;higkeiten helfen w&#252;rde:
+</I>&gt;<i> 1. Viele Leute, denen ich digilib zeige, w&#252;nschen sich nicht nur Punkte 
+</I>&gt;<i> im Bild zu markieren, sondern auch Bereiche.
+</I>
+Ich hatte auch schon daran gedacht wenigstens eine rechteckige 
+Markierung zu unterst&#252;tzen, aber man m&#252;sste sich gut &#252;berlegen wie das 
+zu bedienen ist...
+
+Alle aufwendigeren Markierungen fand ich in der derzeitigen 
+Client-Seitigen Form der Markierungen nicht wirklich angemessen. Wenn 
+der Benutzer sich ein Polygon aus 1000 Punkten zusammenklickt, sollte er 
+das lieber gleich auf einem Server speichern. Abgesehen vom Problem der 
+clientseitigen Darstellung von Polygonen...
+
+&gt;<i> 2. W&#228;r es sehr aufwendig die Navigation durch ein Bild per drag&amp;drop zu 
+</I>&gt;<i> regeln? So &#228;hnlich wie bei Google-Maps.
+</I>
+Die Animation dazu w&#228;re aufwendig. Ansonsten m&#252;sste man einfach nur eine 
+Verschiebung um die mit der Maus gezogene Strecke ausf&#252;hren.
+
+Wenn man will dass beim ziehen gleich frische Bildbereiche erscheinen, 
+wird es noch aufwendiger.
+
+&gt;<i> 3. Und dann w&#228;re es sch&#246;n, besonders f&#252;r die Einbindung in SADE, wenn 
+</I>&gt;<i> man das Bilderverzeichnis relativ referenzieren k&#246;nnte. :)
+</I>
+Was meinst Du damit?
+
+Meinst Du in der basedir-list in der digilib-config.xml? Das m&#252;sste 
+recht einfach zu machen sein (ich benutze das ja schon z.B. bei den 
+error-images). Oder meinst Du im Client?
+
+&gt;<i> Wie gesagt, ich w&#252;rde versuchen bei der Umsetzung mitzuhelfen sofern das 
+</I>&gt;<i> m&#246;glich ist.
+</I>
+Ich nehme gern Patches an und k&#246;nnte Dir auch Schreibzugriff auf das CVS 
+geben. Wir k&#246;nnten uns auch erstmal &#252;ber die &#196;nderungen unterhalten.
+
+Gruss
+	Robert
+
+&gt;<i> PS: Ich hab die Mail an Dich geschickt, obwohl sie vielleicht besser 
+</I>&gt;<i> nach digilib-devel passt. Vielleicht kann man auf der Liste eine 
+</I>&gt;<i> Diskussion &#252;ber die Punkte anregen, falls das in Deinem Interesse ist.
+</I>
+Ich schicke diese Antwort jetzt einfach auch an digilib-devel. Ich hoffe 
+das ist Dir auch recht.
+
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	
+	<LI>Next message: <A HREF="000001.html">[digilib-devel] digilib
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#0">[ date ]</a>
+              <a href="thread.html#0">[ thread ]</a>
+              <a href="subject.html#0">[ subject ]</a>
+              <a href="author.html#0">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/digilib-devel">More information about the digilib-devel
+mailing list</a><br>
+</body></html>

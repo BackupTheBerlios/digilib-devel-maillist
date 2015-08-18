@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [digilib-devel] digilib
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/digilib-devel/2008-September/index.html" >
+   <LINK REL="made" HREF="mailto:digilib-devel%40lists.berlios.de?Subject=Re%3A%20%5Bdigilib-devel%5D%20digilib&In-Reply-To=%3C48BBFA27.7000608%40bbaw.de%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   
+   
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[digilib-devel] digilib</H1>
+    <B>Alexander Czmiel</B> 
+    <A HREF="mailto:digilib-devel%40lists.berlios.de?Subject=Re%3A%20%5Bdigilib-devel%5D%20digilib&In-Reply-To=%3C48BBFA27.7000608%40bbaw.de%3E"
+       TITLE="[digilib-devel] digilib">czmiel at bbaw.de
+       </A><BR>
+    <I>Mon Sep  1 16:20:23 CEST 2008</I>
+    <P><UL>
+        
+        
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#3">[ date ]</a>
+              <a href="thread.html#3">[ thread ]</a>
+              <a href="subject.html#3">[ subject ]</a>
+              <a href="author.html#3">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE>Hallo Robert,
+
+&gt;<i> Wie unterscheidet man es von der Punkt-Markierung? Gibt es einen extra 
+</I>&gt;<i> Knopf f&#252;r die Rechteck-Markierung? Gibt es mehr als eine 
+</I>&gt;<i> Rechteck-Markierung?
+</I> &gt; Sollte man daf&#252;r doch einen getrennten Parameter verwenden? (Spart das
+ &gt; Kopfzerbrechen &#252;ber das Koordinatenformat.)
+
+Ok, das sind Fragen, die vorher gekl&#228;rt sein m&#252;ssen. Aber grunds&#228;tzlich 
+w&#252;rde ich die letzten drei mit ja beantworten. Kommt nat&#252;rlich darauf an 
+wie kompliziert das in den bestehenden Code einzubinden ist. Ein eigener 
+Parameter w&#252;rde erlauben die Entscheidung freizustellen, ob die 
+Rechtecke extra durchgez&#228;hlt werden oder zusammen mit den Punktmarkierungen.
+
+&gt;<i> Man muss es wahrscheinlich schon per AJAX machen wenn man zus&#228;tzliche 
+</I>&gt;<i> Bildteile vorladen will. Ansonsten dauert es sicherlich zu lange. Den 
+</I>&gt;<i> Code daf&#252;r stelle ich mir nicht trivial vor. Schau Dir doch mal an ob es 
+</I>&gt;<i> dazu eine Library gibt.
+</I>
+Ich hab nochmal rumgeschaut, aber leider keine Bibliothek gefunden, die 
+genau diese Aufgabe erf&#252;llt. Vielleicht hilft dieser Ansatz weiter: 
+<A HREF="http://media.pragprog.com/titles/ajax/ajaxian_maps.pdf">http://media.pragprog.com/titles/ajax/ajaxian_maps.pdf</A>
+Die zerteilen Ihr Bild allerdings schon vorher. Aber vielleicht kann man 
+sich f&#252;r die Navigation etwas abgucken.
+
+&gt;&gt;<i> Genau. So wie das bei den error-images l&#228;uft. Ich habs nochmal 
+</I>&gt;&gt;<i> versucht, aber da scheinen noch &#196;nderungen im Code n&#246;tig zu sein. 
+</I>&gt;&gt;<i> Optimal w&#228;re, wenn man &#252;ber das Servletverzeichnis hinaus gehen k&#246;nnte.
+</I>&gt;<i> 
+</I>&gt;<i> Das ist dann wieder ein Problem. Man muss eben f&#252;r relative Pfade 
+</I>&gt;<i> vorgeben worauf sie sich beziehen. Entweder auf das 
+</I>&gt;<i> JVM-Arbeitsverzeichnis (so m&#252;sste es eigentlich jetzt schon f&#252;r die 
+</I>&gt;<i> basedir-list sein, probiere doch mal die entsprechenden JVM Optionen) 
+</I>&gt;<i> oder das Verzeichnis der Webapp.
+</I>
+Ich habs leider trotzdem nicht hinbekommen. :( Da es mit den 
+error-images funktioniert, hab ich versucht aus dem Quelltext 
+rauszukriegen was helfen k&#246;nnte...leider ohne Erfolg.
+
+Mir ist noch eingefallen, gas es ganz n&#252;tzlich sein k&#246;nnte, wenn man bei 
+digicat nicht nur die Bilder, sondern auch die Unterverzeichnisse 
+angezeigt bek&#228;me und darin navigieren k&#246;nnte.
+
+Gru&#223;, Alex
+
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	
+	
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#3">[ date ]</a>
+              <a href="thread.html#3">[ thread ]</a>
+              <a href="subject.html#3">[ subject ]</a>
+              <a href="author.html#3">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/digilib-devel">More information about the digilib-devel
+mailing list</a><br>
+</body></html>

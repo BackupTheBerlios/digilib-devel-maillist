@@ -1,0 +1,38 @@
+From casties at mpiwg-berlin.mpg.de  Tue Sep  3 21:01:42 2013
+From: casties at mpiwg-berlin.mpg.de (Robert Casties)
+Date: Tue, 03 Sep 2013 21:01:42 +0200
+Subject: [digilib-devel] digilib gets new project home page!
+Message-ID: <52263216.9020701@mpiwg-berlin.mpg.de>
+
+Dear digilib fans,
+
+after years upon years with the same old dusty HTML pages on
+
+http://digilib.berlios.de
+
+despite all ongoing development on the code in the Mercurial repository
+<http://hg.berlios.de/repos/digilib> we now have a new project home page
+thanks to the magic of Markdown[1] and the Maven site plugin[2] adn its
+Fluido[3] skin (and me actually writing some documentation...)!
+
+I have also updated the rest of the BerliOS project page, hiding old
+file releases and old documentation. If you miss anything on the new
+page please tell me.
+
+More information on how to embed digilib in your own pages and server
+code is on the way. If you have any documentation for digilib that is
+not up on the web, please send me your Markdown files.
+
+Enjoy
+	Robert
+
+[1]: http://daringfireball.net/projects/markdown/syntax
+[2]: http://maven.apache.org/plugins/maven-site-plugin/
+[3]: http://maven.apache.org/skins/maven-fluido-skin/
+
+-- 
+Dr. Robert Casties -- Information Technology Group
+Max Planck Institute for the History of Science
+Boltzmannstr. 22, D-14195 Berlin
+Tel: +49/30/22667-342 Fax: -299
+
